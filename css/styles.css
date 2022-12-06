@@ -245,6 +245,7 @@ line-height: 1.3;
 
 .work-item {
     margin-left: 24px;
+    border: 1px solid var(--footer-text)
 }
 
 .work-item:first-child {
@@ -263,6 +264,7 @@ line-height: 1.3;
 .team-item {
     background-color: var(--white-accent-color);
     margin-left: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:first-child {
@@ -357,6 +359,7 @@ line-height: 1.3;
 .examples-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .examples-list a {
@@ -370,8 +373,9 @@ color: var(--logo-footer-white);
 }
 
 .examples-item {
-    margin-left: 24px;
+    margin-left: 20px;
     margin-bottom: 48px;
+    border: 0.5px solid var(--logo-footer-white);
 }
 
 .examples-item:nth-child(3n + 1) {
@@ -386,6 +390,5 @@ color: var(--logo-footer-white);
     padding-left: 16px;
     padding-top: 32px;
     padding-bottom: 32px;
-    border: 0.5px solid var(--logo-footer-white);
 }
 
