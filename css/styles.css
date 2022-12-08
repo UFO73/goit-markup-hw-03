@@ -20,6 +20,8 @@ body {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .flex {
@@ -373,9 +375,10 @@ color: var(--logo-footer-white);
 }
 
 .examples-item {
-    margin-left: 20px;
+    max-width: 360px; 
+    margin-left: 24px;
     margin-bottom: 48px;
-    border: 0.5px solid var(--logo-footer-white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .examples-item:nth-child(3n + 1) {
@@ -390,5 +393,8 @@ color: var(--logo-footer-white);
     padding-left: 16px;
     padding-top: 32px;
     padding-bottom: 32px;
+    border-left: 0.5px solid var(--logo-footer-white);
+    border-bottom: 0.5px solid var(--logo-footer-white);
+    border-right: 0.5px solid var(--logo-footer-white);;
 }
 
